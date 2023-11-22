@@ -24,7 +24,7 @@ app.get("/v1/home-loans", async (req, res) => {
   try {
     const term = req.query.term;
     const response = await getResponse('home-loans.json');
-
+    res.setHeader('Content-Type', 'application/json');
     if (term) {
       const filteredResponse = response.filter((loan) => loan.term >= term);
       res.send(filteredResponse);
@@ -44,8 +44,10 @@ app.get("/v1/home-loans/:loanId", async (req, res) => {
     const response = await getResponse('home-loans.json');
 
     if (filteredResponse = response.filter((loan) => loan.id === loanId)) {
+      res.setHeader('Content-Type', 'application/json');
       res.send(filteredResponse);
     } else {
+      res.setHeader('Content-Type', 'application/json');
       res.send(response);
     }
   } catch (err) {
@@ -85,7 +87,7 @@ app.post("/v1/home-loans/application", async (req, res) => {
     const filteredLoanResponse = loanResponse.filter((loan) => loan.id === requestBody.loanId).shift();
 
     const updatedResponse = { ...applicationResponse, ...filteredLoanResponse, ...filteredBody };
-
+    res.setHeader('Content-Type', 'application/json');
     res.send(updatedResponse);
   } catch (err) {
     console.error('Error:', err);
@@ -97,6 +99,7 @@ app.get("/v1/home-loans/application/:applicationId", async (req, res) => {
   try {
     const applicationId = req.params.applicationId;
     const response = await getResponse(`application_${applicationId}.json`);
+    res.setHeader('Content-Type', 'application/json');
     res.send(response);
   } catch (err) {
     console.error('Error:', err);
@@ -108,6 +111,7 @@ app.get("/v1/home-loans/application/:applicationId/statements", async (req, res)
   try {
     const applicationId = req.params.applicationId;
     const response = await getResponse(`application_${applicationId}_statements.json`);
+    res.setHeader('Content-Type', 'application/json');
     res.send(response);
   } catch (err) {
     console.error('Error:', err);
@@ -119,6 +123,7 @@ app.get("/v1/home-loans/application/:applicationId/status", async (req, res) => 
   try {
     const applicationId = req.params.applicationId;
     const response = await getResponse(`application_${applicationId}_status.json`);
+    res.setHeader('Content-Type', 'application/json');
     res.send(response);
   } catch (err) {
     console.error('Error:', err);
@@ -130,6 +135,7 @@ app.get("/v1/home-loans/application/:applicationId/balance", async (req, res) =>
   try {
     const applicationId = req.params.applicationId;
     const response = await getResponse(`application_${applicationId}_balance.json`);
+    res.setHeader('Content-Type', 'application/json');
     res.send(response);
   } catch (err) {
     console.error('Error:', err);
@@ -140,6 +146,7 @@ app.get("/v1/home-loans/application/:applicationId/balance", async (req, res) =>
 app.get("/v1/home-loans/rates", async (req, res) => {
   try {
     const response = await getResponse('rates.json');
+    res.setHeader('Content-Type', 'application/json');
     res.send(response);
   } catch (err) {
     console.error('Error:', err);
@@ -151,6 +158,7 @@ app.get("/v1/home-loans/rates/:loanId", async (req, res) => {
   try {
     const loanId = req.params.loanId;
     const response = await getResponse('rates.json');
+    res.setHeader('Content-Type', 'application/json');
     res.send(response);
   } catch (err) {
     console.error('Error:', err);
