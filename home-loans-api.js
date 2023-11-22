@@ -27,11 +27,15 @@ app.get("/v1/home-loans", async (req, res) => {
     res.setHeader('Content-Type', 'application/json');
     if (term) {
       const filteredResponse = response.filter((loan) => loan.term >= term);
-      res.send(filteredResponse);
+
+      res.setHeader('Content-Type', 'application/json');
+      res.json(filteredResponse);
     } else {
-      res.send(response);
+      res.setHeader('Content-Type', 'application/json');
+      res.json(response);
     }
-    res.send(response);
+    res.setHeader('Content-Type', 'application/json');
+    res.json(response);
   } catch (err) {
     console.error('Error:', err);
     res.status(500).send('Internal server error');
@@ -45,10 +49,10 @@ app.get("/v1/home-loans/:loanId", async (req, res) => {
 
     if (filteredResponse = response.filter((loan) => loan.id === loanId)) {
       res.setHeader('Content-Type', 'application/json');
-      res.send(filteredResponse);
+      res.json(filteredResponse);
     } else {
       res.setHeader('Content-Type', 'application/json');
-      res.send(response);
+      res.json(response);
     }
   } catch (err) {
     console.error('Error:', err);
@@ -88,7 +92,7 @@ app.post("/v1/home-loans/application", async (req, res) => {
 
     const updatedResponse = { ...applicationResponse, ...filteredLoanResponse, ...filteredBody };
     res.setHeader('Content-Type', 'application/json');
-    res.send(updatedResponse);
+    res.json(updatedResponse);
   } catch (err) {
     console.error('Error:', err);
     res.status(500).send(`Internal server error: ${err}`);
@@ -100,7 +104,7 @@ app.get("/v1/home-loans/application/:applicationId", async (req, res) => {
     const applicationId = req.params.applicationId;
     const response = await getResponse(`application_${applicationId}.json`);
     res.setHeader('Content-Type', 'application/json');
-    res.send(response);
+    res.json(response);
   } catch (err) {
     console.error('Error:', err);
     res.status(500).send('Internal server error');
@@ -112,7 +116,7 @@ app.get("/v1/home-loans/application/:applicationId/statements", async (req, res)
     const applicationId = req.params.applicationId;
     const response = await getResponse(`application_${applicationId}_statements.json`);
     res.setHeader('Content-Type', 'application/json');
-    res.send(response);
+    res.json(response);
   } catch (err) {
     console.error('Error:', err);
     res.status(500).send('Internal server error');
@@ -124,7 +128,7 @@ app.get("/v1/home-loans/application/:applicationId/status", async (req, res) => 
     const applicationId = req.params.applicationId;
     const response = await getResponse(`application_${applicationId}_status.json`);
     res.setHeader('Content-Type', 'application/json');
-    res.send(response);
+    res.json(response);
   } catch (err) {
     console.error('Error:', err);
     res.status(500).send('Internal server error');
@@ -136,7 +140,7 @@ app.get("/v1/home-loans/application/:applicationId/balance", async (req, res) =>
     const applicationId = req.params.applicationId;
     const response = await getResponse(`application_${applicationId}_balance.json`);
     res.setHeader('Content-Type', 'application/json');
-    res.send(response);
+    res.json(response);
   } catch (err) {
     console.error('Error:', err);
     res.status(500).send('Internal server error');
@@ -147,7 +151,7 @@ app.get("/v1/home-loans/rates", async (req, res) => {
   try {
     const response = await getResponse('rates.json');
     res.setHeader('Content-Type', 'application/json');
-    res.send(response);
+    res.json(response);
   } catch (err) {
     console.error('Error:', err);
     res.status(500).send('Internal server error');
@@ -159,7 +163,7 @@ app.get("/v1/home-loans/rates/:loanId", async (req, res) => {
     const loanId = req.params.loanId;
     const response = await getResponse('rates.json');
     res.setHeader('Content-Type', 'application/json');
-    res.send(response);
+    res.json(response);
   } catch (err) {
     console.error('Error:', err);
     res.status(500).send('Internal server error');
