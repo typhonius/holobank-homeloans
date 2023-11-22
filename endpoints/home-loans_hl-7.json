@@ -1,0 +1,18 @@
+{
+    "id": "hl-7",
+    "name": "HoloBank Investment Home Loan",
+    "description": "A home loan designed for property investors, with competitive interest rates and flexible repayment options.",
+    "interestRate": 4.1,
+    "term": 30,
+    "fees": 650,
+    "loanToValueRatio": 80,
+    "repaymentOptions": [
+        "principal-and-interest",
+        "interest-only"
+    ],
+    "additionalFeatures": [
+        "extra-repayments",
+        "redraw-facility",
+        "offset-account"
+    ]
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "hl-1",
+    "name": "HoloBank Fixed Rate Home Loan",
+    "description": "A fixed rate home loan with a locked-in interest rate for the initial term.",
+    "interestRate": 3.5,
+    "term": 360,
+    "fees": 500
+  },
+  {
+    "id": "hl-2",
+    "name": "HoloBank Adjustable Rate Home Loan",
+    "description": "An adjustable rate home loan with a variable interest rate based on market conditions.",
+    "interestRate": 3.25,
+    "term": 360,
+    "fees": 400
+  },
+  {
+    "id": "hl-3",
+    "name": "HoloBank Interest Only Home Loan",
+    "description": "An interest only home loan where only interest payments are made for a set period.",
+    "interestRate": 4.0,
+    "term": 300,
+    "fees": 450
+  },
+  {
+    "id": "hl-4",
+    "name": "HoloBank 100% Offset Home Loan",
+    "description": "A home loan with a 100% offset account that helps reduce interest payments.",
+    "interestRate": 3.75,
+    "term": 300,
+    "fees": 550
+  },
+  {
+    "id": "hl-5",
+    "name": "HoloBank Low Doc Home Loan",
+    "description": "A home loan designed for self-employed borrowers with limited documentation.",
+    "interestRate": 4.25,
+    "term": 300,
+    "fees": 600
+  },
+  {
+    "id": "hl-6",
+    "name": "HoloBank First Time Home Buyer Loan",
+    "description": "A home loan specifically designed for first-time home buyers with special incentives.",
+    "interestRate": 3.4,
+    "term": 300,
+    "fees": 350
+  },
+  {
+    "id": "hl-7",
+    "name": "HoloBank Investment Home Loan",
+    "description": "A home loan designed for property investors with competitive interest rates.",
+    "interestRate": 4.1,
+    "term": 200,
+    "fees": 500
+  },
+  {
+    "id": "hl-8",
+    "name": "HoloBank Construction Home Loan",
+    "description": "A construction home loan that provides funds in stages as the property is being built.",
+    "interestRate": 3.9,
+    "term": 200,
+    "fees": 450
+  },
+  {
+    "id": "hl-9",
+    "name": "HoloBank Home Equity Loan",
+    "description": "A loan that allows homeowners to borrow against the equity in their property.",
+    "interestRate": 4.5,
+    "term": 200,
+    "fees": 600
+  },
+  {
+    "id": "hl-10",
+    "name": "HoloBank Refinance Home Loan",
+    "description": "A home loan designed for borrowers looking to refinance their existing mortgage.",
+    "interestRate": 3.6,
+    "term": 360,
+    "fees": 400
+  },
+  {
+    "id": "hl-11",
+    "name": "HoloBank Fixed Rate Home Loan",
+    "description": "A fixed rate home loan with a locked-in interest rate for the initial term.",
+    "interestRate": 3.75,
+    "term": 240,
+    "fees": 500
+  },
+  {
+    "id": "hl-12",
+    "name": "HoloBank Adjustable Rate Home Loan",
+    "description": "An adjustable rate home loan with a variable interest rate based on market conditions.",
+    "interestRate": 3.5,
+    "term": 240,
+    "fees": 400
+  },
+  {
+    "id": "hl-13",
+    "name": "HoloBank Interest Only Home Loan",
+    "description": "An interest only home loan where only interest payments are made for a set period.",
+    "interestRate": 4.25,
+    "term": 180,
+    "fees": 450
+  },
+  {
+    "id": "hl-14",
+    "name": "HoloBank 100% Offset Home Loan",
+    "description": "A home loan with a 100% offset account that helps reduce interest payments.",
+    "interestRate": 4.0,
+    "term": 360,
+    "fees": 550
+  },
+  {
+    "id": "hl-15",
+    "name": "HoloBank Low Doc Home Loan",
+    "description": "A home loan designed for self-employed borrowers with limited documentation.",
+    "interestRate": 4.5,
+    "term": 240,
+    "fees": 600
+  },
+  {
+    "id": "hl-16",
+    "name": "HoloBank First Time Home Buyer Loan",
+    "description": "A home loan specifically designed for first-time home buyers with special incentives.",
+    "interestRate": 3.6,
+    "term": 360,
+    "fees": 350
+  },
+  {
+    "id": "hl-17",
+    "name": "HoloBank Investment Home Loan",
+    "description": "A home loan designed for property investors with competitive interest rates.",
+    "interestRate": 4.2,
+    "term": 240,
+    "fees": 500
+  },
+  {
+    "id": "hl-18",
+    "name": "HoloBank Construction Home Loan",
+    "description": "A construction home loan that provides funds in stages as the property is being built.",
+    "interestRate": 4.0,
+    "term": 420,
+    "fees": 450
+  },
+  {
+    "id": "hl-19",
+    "name": "HoloBank Home Equity Loan",
+    "description": "A loan that allows homeowners to borrow against the equity in their property.",
+    "interestRate": 4.75,
+    "term": 120,
+    "fees": 600
+  },
+  {
+    "id": "hl-20",
+    "name": "HoloBank Refinance Home Loan",
+    "description": "A home loan designed for borrowers looking to refinance their existing mortgage.",
+    "interestRate": 3.8,
+    "term": 420,
+    "fees": 400
+  }
+]

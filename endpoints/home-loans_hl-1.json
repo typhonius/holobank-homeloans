@@ -1,0 +1,17 @@
+{
+  "id": "hl-1",
+  "name": "HoloBank Fixed Rate Home Loan",
+  "description": "A fixed rate home loan with a locked-in interest rate for the initial term.",
+  "interestRate": 3.5,
+  "term": 30,
+  "fees": 500,
+  "loanToValueRatio": 80,
+  "repaymentOptions": [
+    "principal-and-interest",
+    "interest-only"
+  ],
+  "additionalFeatures": [
+    "extra-repayments",
+    "redraw-facility"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "hl-2",
+  "name": "HoloBank Adjustable Rate Home Loan",
+  "description": "An adjustable rate home loan with a variable interest rate based on market conditions.",
+  "interestRate": 3.25,
+  "term": 30,
+  "fees": 400,
+  "loanToValueRatio": 80,
+  "repaymentOptions": [
+    "principal-and-interest",
+    "interest-only"
+  ],
+  "additionalFeatures": [
+    "extra-repayments",
+    "redraw-facility",
+    "offset-account"
+  ]
+}

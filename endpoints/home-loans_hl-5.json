@@ -1,0 +1,17 @@
+{
+    "id": "hl-5",
+    "name": "HoloBank Low Doc Home Loan",
+    "description": "A home loan designed for self-employed borrowers with limited documentation.",
+    "interestRate": 4.25,
+    "term": 30,
+    "fees": 550,
+    "loanToValueRatio": 70,
+    "repaymentOptions": [
+        "principal-and-interest",
+        "interest-only"
+    ],
+    "additionalFeatures": [
+        "extra-repayments",
+        "redraw-facility"
+    ]
+}

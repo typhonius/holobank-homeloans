@@ -1,0 +1,18 @@
+{
+    "id": "hl-10",
+    "name": "HoloBank Refinance Home Loan",
+    "description": "A home loan designed for borrowers looking to refinance their existing mortgage to a more competitive rate.",
+    "interestRate": 3.6,
+    "term": 30,
+    "fees": 400,
+    "loanToValueRatio": 80,
+    "repaymentOptions": [
+        "principal-and-interest",
+        "interest-only"
+    ],
+    "additionalFeatures": [
+        "extra-repayments",
+        "redraw-facility",
+        "offset-account"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": "hl-6",
+    "name": "HoloBank First Time Home Buyer Loan",
+    "description": "A home loan specifically designed for first-time homebuyers with flexible eligibility criteria.",
+    "interestRate": 3.4,
+    "term": 30,
+    "fees": 300,
+    "loanToValueRatio": 90,
+    "repaymentOptions": [
+        "principal-and-interest"
+    ],
+    "additionalFeatures": [
+        "extra-repayments",
+        "redraw-facility",
+        "first-home-buyer-incentives"
+    ]
+}

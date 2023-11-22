@@ -1,0 +1,23 @@
+{
+    "account_id": "holobank-1234",
+    "transactions": [
+        {
+            "transaction_id": "t-1234",
+            "date": "2023-04-10",
+            "description": "Monthly Payment",
+            "amount": -5000
+        },
+        {
+            "transaction_id": "t-5678",
+            "date": "2023-03-10",
+            "description": "Monthly Payment",
+            "amount": -5000
+        },
+        {
+            "transaction_id": "t-9012",
+            "date": "2023-02-10",
+            "description": "Monthly Payment",
+            "amount": -5000
+        }
+    ]
+}

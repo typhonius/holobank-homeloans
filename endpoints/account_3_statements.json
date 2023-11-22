@@ -1,0 +1,26 @@
+[
+    {
+        "statementId": "holobank-hl-stmt-123",
+        "accountId": "holobank-hl-acct-123",
+        "startDate": "2023-01-01",
+        "endDate": "2023-01-31",
+        "totalDue": 1234.56,
+        "status": "paid"
+    },
+    {
+        "statementId": "holobank-hl-stmt-124",
+        "accountId": "holobank-hl-acct-123",
+        "startDate": "2022-12-01",
+        "endDate": "2022-12-31",
+        "totalDue": 1234.56,
+        "status": "paid"
+    },
+    {
+        "statementId": "holobank-hl-stmt-125",
+        "accountId": "holobank-hl-acct-123",
+        "startDate": "2022-11-01",
+        "endDate": "2022-11-30",
+        "totalDue": 1234.56,
+        "status": "overdue"
+    }
+]

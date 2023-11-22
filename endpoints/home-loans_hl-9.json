@@ -1,0 +1,16 @@
+{
+    "id": "hl-9",
+    "name": "HoloBank Home Equity Loan",
+    "description": "A home equity loan that allows you to borrow against the equity in your property for various purposes.",
+    "interestRate": 4.5,
+    "term": 15,
+    "fees": 500,
+    "loanToValueRatio": 85,
+    "repaymentOptions": [
+        "principal-and-interest"
+    ],
+    "additionalFeatures": [
+        "extra-repayments",
+        "redraw-facility"
+    ]
+}

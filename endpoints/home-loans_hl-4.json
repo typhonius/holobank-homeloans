@@ -1,0 +1,17 @@
+{
+    "id": "hl-4",
+    "name": "HoloBank 100% Offset Home Loan",
+    "description": "A home loan with a 100% offset account to help reduce the interest payable on your loan.",
+    "interestRate": 3.75,
+    "term": 30,
+    "fees": 600,
+    "loanToValueRatio": 80,
+    "repaymentOptions": [
+        "principal-and-interest"
+    ],
+    "additionalFeatures": [
+        "extra-repayments",
+        "redraw-facility",
+        "offset-account"
+    ]
+}

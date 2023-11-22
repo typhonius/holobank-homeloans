@@ -1,0 +1,25 @@
+{
+    "accountId": "holobank-hl-acct-123",
+    "customerName": "John Doe",
+    "loanId": "holobank-hl-app-589234",
+    "balance": 123456.78,
+    "paymentDueDate": "2023-05-01",
+    "nextPaymentAmount": 1234.56,
+    "interestRate": 3.5,
+    "lastPaymentDate": "2023-04-01",
+    "lastPaymentAmount": 1234.56,
+    "paymentHistory": [
+        {
+            "date": "2023-04-01",
+            "amount": 1234.56
+        },
+        {
+            "date": "2023-03-01",
+            "amount": 1234.56
+        },
+        {
+            "date": "2023-02-01",
+            "amount": 1234.56
+        }
+    ]
+}

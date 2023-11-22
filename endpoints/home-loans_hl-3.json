@@ -1,0 +1,16 @@
+{
+    "id": "hl-3",
+    "name": "HoloBank Interest Only Home Loan",
+    "description": "An interest-only home loan that allows you to pay only the interest portion for a fixed period.",
+    "interestRate": 4.0,
+    "term": 30,
+    "fees": 450,
+    "loanToValueRatio": 75,
+    "repaymentOptions": [
+        "interest-only"
+    ],
+    "additionalFeatures": [
+        "extra-repayments",
+        "redraw-facility"
+    ]
+}

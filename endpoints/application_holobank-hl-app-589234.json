@@ -1,0 +1,14 @@
+{
+    "applicationId": "holobank-hl-app-589234",
+    "loanId": "hl-1",
+    "customerId": "c123",
+    "propertyValue": 500000,
+    "loanAmount": 400000,
+    "loanTerm": 30,
+    "repaymentOption": "principal-and-interest",
+    "additionalFeatures": [
+        "extra-repayments",
+        "redraw-facility"
+    ],
+    "status": "submitted"
+}

@@ -1,0 +1,18 @@
+{
+    "id": "hl-8",
+    "name": "HoloBank Construction Home Loan",
+    "description": "A home loan specifically designed for borrowers building or renovating a property.",
+    "interestRate": 3.9,
+    "term": 30,
+    "fees": 700,
+    "loanToValueRatio": 80,
+    "repaymentOptions": [
+        "interest-only",
+        "principal-and-interest"
+    ],
+    "additionalFeatures": [
+        "progress-draws",
+        "extra-repayments",
+        "redraw-facility"
+    ]
+}

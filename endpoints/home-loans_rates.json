@@ -1,0 +1,52 @@
+[
+    {
+        "loanId": "hl-1",
+        "name": "HoloBank Fixed Rate Home Loan",
+        "interestRate": 2.99
+    },
+    {
+      "loanId": "hl-2",
+      "name": "HoloBank Variable Rate Home Loan",
+      "interestRate": 3.25
+    },
+    {
+      "loanId": "hl-3",
+      "name": "HoloBank Low Deposit Home Loan",
+      "interestRate": 3.45
+    },
+    {
+      "loanId": "hl-4",
+      "name": "HoloBank Interest Only Home Loan",
+      "interestRate": 3.65
+    },
+    {
+      "loanId": "hl-5",
+      "name": "HoloBank First Home Buyer Loan",
+      "interestRate": 2.89
+    },
+    {
+      "loanId": "hl-6",
+      "name": "HoloBank Investment Home Loan",
+      "interestRate": 3.75
+    },
+    {
+      "loanId": "hl-7",
+      "name": "HoloBank 100% Offset Home Loan",
+      "interestRate": 3.35
+    },
+    {
+      "loanId": "hl-8",
+      "name": "HoloBank Line of Credit Home Loan",
+      "interestRate": 3.95
+    },
+    {
+      "loanId": "hl-9",
+      "name": "HoloBank Refinance Home Loan",
+      "interestRate": 3.10
+    },
+    {
+      "loanId": "hl-10",
+      "name": "HoloBank Renovation Home Loan",
+      "interestRate": 3.55
+    }
+  ]
