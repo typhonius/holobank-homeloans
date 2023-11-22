@@ -1,4 +1,5 @@
 import express from "npm:express";
+const decoder = new TextDecoder("utf-8");
 
 var app = express();
 app.use(express.json());
@@ -164,7 +165,7 @@ app.listen(port, function () {
 async function getResponse(filename) {
   try {
     const data = await Deno.readFile(`endpoints/${filename}`, 'utf8');
-    return JSON.parse(data);
+    return JSON.parse(decoder.decode(data));
   } catch (err) {
     console.error('Error reading file or parsing JSON:', err);
     throw err;
