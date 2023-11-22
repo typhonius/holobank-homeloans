@@ -20,6 +20,9 @@ app.get("/v1", (req, res) => {
   res.send("v1");
 });
 
+app.get('/json', (req, res) => res.json({ answer: 42 }));
+
+
 app.get("/v1/home-loans", async (req, res) => {
   try {
     const term = req.query.term;
