@@ -1,5 +1,4 @@
-var express = require("express");
-const fs = require('fs').promises;
+import express from "npm:express";
 
 var app = express();
 app.use(express.json());
@@ -164,7 +163,7 @@ app.listen(port, function () {
 
 async function getResponse(filename) {
   try {
-    const data = await fs.readFile(`endpoints/${filename}`, 'utf8');
+    const data = await Deno.readFile(`endpoints/${filename}`, 'utf8');
     return JSON.parse(data);
   } catch (err) {
     console.error('Error reading file or parsing JSON:', err);
