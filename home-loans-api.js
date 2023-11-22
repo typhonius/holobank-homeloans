@@ -9,7 +9,7 @@ app.use((req, res, next) => {
   next();
 });
 
-var port = process.env.PORT || 4006;
+var port = 4006;
 
 app.get("/", (req, res) => {
   res.send("Home loans API is up and running!");
